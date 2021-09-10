@@ -1,0 +1,40 @@
+body{
+    background-color: lightblue;
+    background-image: url("images/pattern-background-desktop.jpg.svg");
+    background-repeat:no-repeat;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  .box{
+    background-color: #fff;
+    height: 570px;
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px #555;
+  }
+  .grid-template-columns{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-left:15%;
+    align-content: center;
+    background-color:aliceblue;
+    height: 70px;
+    width: 275px;
+    border-radius: 15px;
+  }
+  img.displayed {
+    height: 186px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   }
+  p.img{
+    width: 15px;
+    height: 10px;
+    margin-left:10px;
+  }
+  .btn{
+    height:40px;
+    border-radius: 10px;
+    box-shadow: 0 1.200rem 0.200rem rgb(112 112 112 / 10%);
+  }
